@@ -18,7 +18,7 @@ A benchmark script to measure the performances of:
 % bundle exec ruby app/main.rb
 ```
 
-## Sample output
+## Sample output with 10000 records
 ```
                    user     system      total        real
 SQL            0.007339   0.001870   0.009209 (  0.096955)
