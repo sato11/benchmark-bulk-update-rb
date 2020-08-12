@@ -1,0 +1,13 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  host: localhost
+
+development:
+  <<: *default
+  database: benchmark_bulk_update_rb_development
+
+test: &test
+  <<: *default
+  database: benchmark_bulk_update_rb_test
