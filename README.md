@@ -53,7 +53,7 @@ Comparison:
              .update:  148246828 allocated - 68760.12x more
 ```
 
-## Sample output with 10000 records
+## Sample output with 100000 records
 ```
                    user     system      total        real
 SQL            0.007130   0.001779   0.008909 (  0.528804)
